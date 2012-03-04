@@ -4,11 +4,11 @@ I made this small Sinatra app (a blog) to make a template I can use for future p
 
 ## Why?
 
-Sinatra is wonderful for small projects. If you are building a semi-large project, you may miss the structure that larger frameworks like Rails or Padrino provide. This template provides such a structure.
+Sinatra is wonderful for small projects. If you are building a semi-large project, you may miss the structure that larger frameworks like Rails or Padrino provide. This template will give you such a structure.
 
 ## What?
 
-This template is actually a small blog. There is now styling or Javascript whatsoever, as I want to keep this as minimal as possible. Right now, it has these features, development-wise:
+This template is actually a small blog. There is no styling or Javascript whatsoever, as I want to keep this as minimal as possible. Right now, it has these features, development-wise:
 
 * Organized, Rails-like folder structure
 * Reloading in devmode with Sinatra::Reloader
