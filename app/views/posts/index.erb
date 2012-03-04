@@ -1,0 +1,10 @@
+<h1>Just a nice index for your posts.</h1>
+<p>You have written <%= @posts.count %> posts.</p>
+<% if @posts.count > 0 then %>
+  <% @posts.each do |post| %>
+    <h2><a href="<%= url "/posts/#{post.id}"%>"><%= post.title %></a></h2>
+    <p><%= post.body %></p>
+  <% end %>
+<% else %>
+  <p>If you write something, it will show up here!</p>
+<% end %>

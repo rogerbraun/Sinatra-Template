@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Sinatra</title>
+  </head>
+  <body>
+    <a href="<%= url '/posts' %>">Index</a>
+    | <a href="<%= url '/posts/new' %>">New Post</a>
+    <br />
+    <%= yield %>
+  </body> 
+</html>

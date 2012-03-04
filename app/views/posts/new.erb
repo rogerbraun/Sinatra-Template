@@ -1,0 +1,12 @@
+<h1>New post</h1>
+<form action="<%= url "posts/create" %>" method="post" >
+  <label for="post[title]">Title:</label>
+  <br />
+  <input name="post[title]" id=post_title />
+  <br />
+  <label for="post[body]">Body:</label>
+  <br />
+  <textarea name="post[body]"body id=post_body rows=8></textarea>
+  <br />
+  <button>Post it!</button>
+</form>
