@@ -18,7 +18,7 @@ This template is actually a small blog. There is now styling or Javascript whats
 
 ## How?
 
-To try this out, just clone the repo, run 'bundle --without heroku' and then 'rackup'. Modify as you see fit. It is Heroku ready as-is. If you want to try it on Heroku, install the heroku gem, type 'heroku create', 'git push heroku master' and visit the URL that it shows you. To run the tests, just type 'rake'.
+To try this out, just clone the repo, run ```bundle --without heroku``` and then ```rackup```. Modify as you see fit. It is Heroku ready as-is. If you want to try it on Heroku, install the heroku gem, type ```heroku create```, ```git push heroku master``` and visit the URL that it shows you. To run the tests, just type ```rake```.
 
 ## Who?
 
