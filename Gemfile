@@ -1,11 +1,18 @@
 source :rubygems
 
 gem "sinatra"
-gem "sinatra-contrib", :require => "sinatra/reloader"
 gem "dm-core"
-gem "dm-sqlite-adapter"
 gem "dm-migrations"
 gem "dm-validations"
+
+group :development do
+  gem "sinatra-contrib", :require => "sinatra/reloader"
+  gem "dm-sqlite-adapter"
+end
+
+group :heroku do
+  gem "dm-postgres-adapter"
+end
 
 group :test do
   gem "rack-test", :require => "rack/test"
